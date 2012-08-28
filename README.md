@@ -2,5 +2,5 @@
 
 This is the sample application for
 [*Ruby on Rails Tutorial : Learn Rails by Example*](http://railstutorial.org/)
-edited by [Adrie Taniwidjaja](lurah@outlook.com).
+edited by Adrie Taniwidjaja.
 
