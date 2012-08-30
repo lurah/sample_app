@@ -108,4 +108,14 @@ describe User do
 	  end
 	end
 
+	describe "email dengan huruf campuran" do
+	  let(:mixed_case_email) { "Foo@ExAMPle.CoM" }
+
+	  it "harus disimpan dengan huruf kecil semua" do
+		@user.email = mixed_case_email
+		@user.save
+		@user.reload.email.should == mixed_case_email.downcase
+	  end
+	end
+
 end
